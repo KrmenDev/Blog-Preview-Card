@@ -1,0 +1,72 @@
+body{
+    background: #F4D04E;
+    font-family: "Figtree", sans-serif;
+    font-weight: 500;
+    color: #111111;
+    letter-spacing: 0px;
+    line-height: 150%;
+} 
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.PreviewCard{
+    background: #FFFFFF;
+    height: 500px;
+    width: 350px;
+    padding: 2em;
+    border-radius: 38px;
+    box-shadow: 1px 5px 1px 7px #111111;
+} 
+
+img{
+    margin-bottom: 1.5em;
+    height: 42%;
+}
+
+.blogTag{
+    margin-top: 2em;
+    background: #F4D04E;
+    padding: 0.5em;
+    border-radius: 5px;
+    padding: 0.5em;
+    font-weight: 800;
+}
+
+.publishedDate{
+    font-size: 0.875rem;
+    line-height: 150%;
+}
+
+h1{
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+
+p{
+    color: #6B6B6B;
+}
+
+h1:hover{
+    color: #F4D04E;
+    cursor: pointer;
+}
+
+.user{
+    display: flex;
+    align-items: center;
+    height: 5rem;
+    align-self: center;
+}
+.userName{
+    font-weight: 800;
+    margin-left: 1em;
+    align-self: center;
+    margin-bottom: 1em;
+  
+}
